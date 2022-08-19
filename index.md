@@ -15,7 +15,7 @@ title: desnesn
 <h1 style="width:100%">About</h1>
 A little blog about desnes' professional, academic and nerd adventures.
 
-<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father (^_^)<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Horrible singer :-X<br> --> opinion_sample_space[my_wife]</p>
+<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father (^_^)<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Horrible singer :-X<brp;&nbsp;&nbsp; --> opinion_sample_space[my_wife]</p>
 
 <h1>Usefull links</h1>
 <ul>
