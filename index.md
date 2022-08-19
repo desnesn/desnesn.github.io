@@ -15,7 +15,7 @@ title: desnesn
 <h1 style="width:100%">About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father :-D<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student8-)<br>Height challenged soccer player (GK) :-|<br>Horrible singer :-X (opinion\_sample\_space[my_wife])</p>
+<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father :-D<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Horrible singer :-X ... opinion_sample_space[my_wife]</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -52,6 +52,10 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
 </div>
+
+<h2>CentOStream9 -> RHEL9</h2>
+On the other hand, with the introduction to CentOStream, Red Hat's distro development became open source:
+<p><b>74 contributions - <a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/commits/main?search=drosario" target="_blank">CentOS9 kernel.spec</a></b></p>
 
 <br>
 <h1>Upstream contributions</h1>
