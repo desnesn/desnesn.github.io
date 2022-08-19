@@ -12,10 +12,10 @@ A little blog about desnes's adventures on academic and professional life
         width:100%;
         border:1px solid #ccc;
         font:16px/26px Georgia, Garamond, Serif;
-        overflow:auto;
+	display: flex;
 }
 </style>
 
 <div class="scrollBox">
-<object style="width:100%" data="centos/commits-from-Desnes-centos7.txt"></object>
+<object style="flex: 1;" data="centos/commits-from-Desnes-centos7.txt"></object>
 </div>
