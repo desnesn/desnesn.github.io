@@ -15,7 +15,7 @@ title: desnesn
 <h1 style="width:100%">About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father :-D, Linux Kernel hacker B-), academic scholar 8-), challenged soccer player (GK) :-| ... and horrible singer :-X (since the statistical sample space for this conclusion is only based on my wife's opinion, more research is yet necessary to reach further conclusions)</p>
+<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father :-D<br>Linux Kernel hacker B-)<br>academic scholar 8-)<br>challenged soccer player (GK) :-|<br> ... and horrible singer :-X (since the statistical sample space for this conclusion is only based on my wife's opinion, more research is yet necessary to reach further conclusions)</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -62,7 +62,7 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 	
 <h1>Some videos</h1>
 <p>2014 - Prototype of mobile Android application applied to an Industrial Plant with OPC comunication (Portuguese)</p>
-<iframe width="420" height="315"
+<iframe width="100%" height="315"
         src="https://www.youtube.com/embed/JSg42LkjQy0">
 </iframe>
 
