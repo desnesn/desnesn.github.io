@@ -13,15 +13,20 @@ title: desnesn
 </style>
 
 <h1>About</h1>
-A little blog about desnes' professional and academic adventures
+A little blog about desnes' professional, academic and curious adventures.
+
+Proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X.
 
 <h1>Usefull links</h1>
 <ul>
-	<li><a href="{{ site.baseurl }}/contributions">Open Source Contributions</a></li>
+<!--<li><a href="{{ site.baseurl }}/contributions">Open Source Contributions</a></li>-->
 	<li>Email: desnesn gmail com</li>
-	<li>IRC: desnesn @ irc.freenode.net </li>
+	<li><a href=https://www.linkedin.com/in/desnesn/">LinkedIn</a></li>
 	<li><a href="https://github.com/desnesn/">GitHub</a></li>
-	<li><a href="https://www.linkedin.com/in/desnesn/">LinkedIn</a></li>
+	<li><a href="https://gitlab.com/desnesn">Gitlab</a></li>
+	<li><a href="https://copr.fedorainfracloud.org/coprs/desnesn/beaker.dn/">Fedora COPR</a></li>
+	<li><a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4454324Z2&tokenCaptchar=03ANYolquA_fBtbZCyBhMOwjmzNEox-w4dglC8m6oYI5Il-EGNrRBAF7hFLKJAu2Hujo6VCXcnzoxuIosLzDmkjM0zDw6-lrgyzmQqFnoY4Mpez49ZMMz43USRhEvy5HYAxm6Jk8gIHgtUIxUFNvNqm7z7OP7qM9Bv5D522YdP2u88P8rqC1_UAxV2FCHr0bF78IDIShVN33DwTZzYLOn_Fcl24DbS8pBmaOArZYiWUIIo_QrO0inWFJlyGHSW-U3pvWMCSUHcgFHG8pLdbLOrGOTMsgvyQHvWv4foXL2UQxRhLW3s_AxYKQIbZ4Leg_Zbcl3slij0VvrK6cgx4kbNXkZoKp5gvgxS5WmWsLkg-i0qt1sA-Fsn6GqusMBQ2XDpliNA1MFgjcd9Futj9nBj83LxvQWITRCeVkxSp6BpGELiYocXAqVsEmo4jPYYACSgdc8upKGH6FSjGmcV6tuePEKAppkea_2jXgb2N-iapPrQiZalmb1MdY70dooVaFJuk9cKCuIGUpqdjwa5j2LBr6yYKR1WgYzDE4aF3Z4OOxKeoQfVWZfsRu2pk9mcb1otk5TgP9GDeMk4qshoYxTs71OZjvl-QjX3bg">Curriculum Lattes</a></li>
+	<li>IRC: desnesn @ irc.freenode.net </li>
 </ul>
 
 <h1 style="width:100%">Dowstream contributions</h1>
