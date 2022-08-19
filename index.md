@@ -55,7 +55,8 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 
 <h2>CentOStream9 -> RHEL9</h2>
 On the other hand, with the introduction to CentOStream, Red Hat's distro development became fully open source, hence contributions can now be easily found on Red Hat's gitlab tree:
-<p><b>74 contributions - <a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/commits/main?search=drosario" target="_blank">CentOS9 kernel.spec</a></b></p>
+<br>
+<p><b>74 contributions - <a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/commits/main?search=drosario" target="_blank">CentOStream9 Gitlab tree</a></b></p>
 
 <h1>Upstream contributions</h1>
 <ul>
