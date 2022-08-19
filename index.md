@@ -33,7 +33,7 @@ A little blog about desnes' professional, academic and curious adventures.
 
 <p>Since RHEL's develoment up to recently was heavily closed, CentOS changelog can be used to estimate the amount of contributions to RHEL code, as shown hereafter.
 
-These were caculated with: <a href="code/get_my_commits.sh">get_my_commits.sh</a>
+These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io/blob/main/code/get_my_commits.sh">get_my_commits.sh</a>
 
 <h2>RHEL7 -> CentOS7</h2>
 <p><b>143 contributions</b></p>
@@ -53,6 +53,7 @@ These were caculated with: <a href="code/get_my_commits.sh">get_my_commits.sh</a
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
 </div>
 
+<br>
 <h1>Some videos</h1>
 <p>2014 - Prototype of mobile Android application applied to an Industrial Plant with OPC comunication (Portuguese)</p>
 <iframe width="420" height="315"
