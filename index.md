@@ -1,5 +1,5 @@
 ---
-title: desnesn.github.io
+title: desnesn
 ---
 
 # about
@@ -19,3 +19,12 @@ A little blog about desnes's adventures on academic and professional life
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos7.txt"></object>
 </div>
+
+<div class="scrollBox">
+<object style="flex: 1;" data="centos/commits-from-Desnes-centos8.txt"></object>
+</div>
+
+<div class="scrollBox">
+<object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
+</div>
+
