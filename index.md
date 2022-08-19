@@ -11,7 +11,7 @@ title: desnesn
 	display: flex;
 }
 
-a:[target=_blank]
+a:[target="_blank"]
 </style>
 
 <h1>About</h1>
