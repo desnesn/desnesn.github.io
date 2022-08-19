@@ -15,7 +15,7 @@ title: desnesn
 <h1>About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p>Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X (wife's personal opinion - not valid sample space)</p>
+<p>Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| ... and horrible singer :-X (wife's personal opinion - statistical sample space not valid - more research is yet necessary to reach further conclusions)</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -32,19 +32,19 @@ A little blog about desnes' professional, academic and curious adventures.
 <h1 style="width:100%">Dowstream contributions</h1>
 
 <h2>RHEL7 -> CentOS7</h2>
-<p>143 contributions</p>
+<p><b>143 contributions</b></p>
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos7.txt"></object>
 </div>
 
 <h2>RHEL8 -> CentOS8</h2>
-<p>411 contributions</p>
+<p><b>411 contributions</b></p>
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos8.txt"></object>
 </div>
 
 <h2>RHEL9 -> CentOS9</h2>
-<p>11 contributions</p>
+<p><b>11 contributions</b></p>
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
 </div>
@@ -60,3 +60,12 @@ A little blog about desnes' professional, academic and curious adventures.
         src="https://www.youtube.com/embed/WcnRI7vdFD8">
 </iframe>
 
+<h1>Research papers and uublications</h1>
+<ul>
+	<li>Email: desnesn gmail com</li>
+</ul>
+
+<h1>Patents</h1>
+<ul>
+	<li>Email: desnesn gmail com</li>
+</ul>
