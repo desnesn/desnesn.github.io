@@ -10,6 +10,10 @@ title: desnesn
         font:16px/26px Georgia, Garamond, Serif;
 	display: flex;
 }
+
+a {
+	target="_blank";
+}
 </style>
 
 <h1>About</h1>
