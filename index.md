@@ -15,7 +15,7 @@ title: desnesn
 <h1>About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p>Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| ... and horrible singer :-X (wife's personal opinion - since the statistical sample space is not valid, more research is yet necessary to reach further conclusions on the latter)</p>
+<p>Really proud father :-D, Linux Kernel hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X (since the statistical sample space for this conclusion is only based on my wife's opinion, more research is yet necessary to reach further conclusions)</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -36,19 +36,19 @@ A little blog about desnes' professional, academic and curious adventures.
 These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io/blob/main/code/get_my_commits.sh">get_my_commits.sh</a>
 
 <h2>RHEL7 -> CentOS7</h2>
-<p><b>143 contributions</b></p>
+<p><b>143 contributions - <a href="https://git.centos.org/rpms/kernel/raw/c7/f/SPECS/kernel.spec">CentOS7 kernel.spec</a></b></p>
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos7.txt"></object>
 </div>
 
 <h2>RHEL8 -> CentOS8</h2>
-<p><b>411 contributions</b></p>
+<p><b>411 contributions - <a href="https://git.centos.org/rpms/kernel/raw/c8/f/SPECS/kernel.spec">CentOS8 kernel.spec</a></b></p>
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos8.txt"></object>
 </div>
 
 <h2>RHEL9 -> CentOS9</h2>
-<p><b>11 contributions</b></p>
+<p><b>11 contributions - <a href="https://git.centos.org/rpms/kernel/raw/c9/f/SPECS/kernel.spec">CentOS9 kernel.spec</a></b></p>
 <div class="scrollBox">
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
 </div>
