@@ -15,7 +15,7 @@ title: desnesn
 <h1>About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p>Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| ... and horrible singer :-X (wife's personal opinion - statistical sample space not valid - more research is yet necessary to reach further conclusions)</p>
+<p>Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| ... and horrible singer :-X (wife's personal opinion - since the statistical sample space is not valid, more research is yet necessary to reach further conclusions on the latter matter)</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -30,6 +30,10 @@ A little blog about desnes' professional, academic and curious adventures.
 </ul>
 
 <h1 style="width:100%">Dowstream contributions</h1>
+
+<p>Since RHEL's develoment up to recently was heavily closed, CentOS changelog can be used to estimate the amount of contributions to RHEL code, as shown hereafter.
+
+These were caculated with: <a href="code/get_my_commits.sh"></a>
 
 <h2>RHEL7 -> CentOS7</h2>
 <p><b>143 contributions</b></p>
@@ -60,7 +64,7 @@ A little blog about desnes' professional, academic and curious adventures.
         src="https://www.youtube.com/embed/WcnRI7vdFD8">
 </iframe>
 
-<h1>Research papers and uublications</h1>
+<h1>Research papers and publications</h1>
 <ul>
 	<li>Email: desnesn gmail com</li>
 </ul>
