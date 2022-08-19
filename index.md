@@ -13,7 +13,7 @@ title: desnesn
 </style>
 
 <h1 style="width:100%">About</h1>
-A little blog about desnes' professional, academic and curious adventures.
+A little blog about desnes' professional, academic and nerd adventures.
 
 <p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father :-D<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Horrible singer :-X ( opinion_sample_space[my_wife] )</p>
 
