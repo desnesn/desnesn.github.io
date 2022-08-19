@@ -29,7 +29,7 @@ A little blog about desnes' professional, academic and curious adventures.
 	<li>IRC: desnesn @ irc.freenode.net </li>
 </ul>
 
-<h1 style="width:100%">Dowstream contributions</h1>
+<h1 style="width:100%">RHEL's dowstream contributions</h1>
 
 <p>Since RHEL's develoment up to recently was heavily closed, CentOS changelog can be used to estimate the amount of contributions to RHEL code, as shown hereafter.
 
@@ -65,9 +65,16 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
         src="https://www.youtube.com/embed/WcnRI7vdFD8">
 </iframe>
 
+<h1>Upstream contributions</h1>
+<ul>
+	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes">Linux Kernel</a></li>
+</ul
+	
 <h1>Research papers and publications</h1>
 <ul>
-	<li>Email: desnesn gmail com</li>
+	<li><a href="https://ieeexplore.ieee.org/document/7307125">IEEE Remote sensing letters - Parallel Scalability of a Fine-grain Prestack Reverse Time Migration (RTM) Algorithm</a></li>
+	<li><a href="https://www.redbooks.ibm.com/Redbooks.nsf/RedpieceAbstracts/sg248371.html?Open">POWER8 HPC S822LC (8335-GTB) Redbook</a></li>
+	<li><a href="https://repositorio.ufrn.br/jspui/bitstream/123456789/15459/1/DesnesANR_DISSERT.pdf">Master thesis (Portuguese)</a></li>
 </ul>
 
 <h1>Patents</h1>
