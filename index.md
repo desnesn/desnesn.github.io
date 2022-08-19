@@ -37,3 +37,14 @@ A little blog about desnes's adventures on academic and professional life
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
 </div>
 
+<h1>Videos</h1>
+<p>2014 - Prototype of mobile Android application applied to an Industrial Plant with OPC comunication (Portuguese)</p>
+<iframe width="420" height="315"
+        src="https://www.youtube.com/embed/JSg42LkjQy0">
+</iframe>
+
+<p>2018 - Cat motion sensored toy</p>
+<iframe width="420" height="315"
+        src="https://www.youtube.com/embed/WcnRI7vdFD8">
+</iframe>
+
