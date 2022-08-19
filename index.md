@@ -15,7 +15,7 @@ title: desnesn
 <h1 style="width:100%">About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father :-D<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Horrible singer :-X ... opinion_sample_space[my_wife]</p>
+<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father :-D<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Horrible singer :-X ( opinion_sample_space[my_wife] )</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -31,7 +31,7 @@ A little blog about desnes' professional, academic and curious adventures.
 
 <h1 style="width:100%">RHEL's dowstream contributions</h1>
 
-<p>Since RHEL's develoment up to recently was heavily closed, CentOS changelog can be used to estimate the amount of contributions to RHEL code, as shown hereafter.
+<p>Since RHEL's develoment was heavily closed in the past, CentOS changelog can be used to estimate the amount of contributions to RHEL code, as shown hereafter.
 
 These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io/blob/main/code/get_my_commits.sh" target="_blank">get_my_commits.sh</a>
 
@@ -54,10 +54,9 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 </div>
 
 <h2>CentOStream9 -> RHEL9</h2>
-On the other hand, with the introduction to CentOStream, Red Hat's distro development became open source:
+On the other hand, with the introduction to CentOStream, Red Hat's distro development became fully open source, hence contributions can now be easily found on Red Hat's gitlab tree:
 <p><b>74 contributions - <a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/commits/main?search=drosario" target="_blank">CentOS9 kernel.spec</a></b></p>
 
-<br>
 <h1>Upstream contributions</h1>
 <ul>
 	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes" target="_blank">Linux Kernel contributions</a></li>
@@ -71,7 +70,7 @@ On the other hand, with the introduction to CentOStream, Red Hat's distro develo
 </iframe>
 
 <p>2018 - Personal project - Cat motion sensored toy</p>
-<iframe width="420" height="315"
+<iframe width="100%" height="315"
         src="https://www.youtube.com/embed/WcnRI7vdFD8">
 </iframe>
 
