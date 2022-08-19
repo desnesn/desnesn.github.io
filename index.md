@@ -15,7 +15,7 @@ title: desnesn
 <h1>About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p>Really proud father :-D, Linux Kernel hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X (since the statistical sample space for this conclusion is only based on my wife's opinion, more research is yet necessary to reach further conclusions)</p>
+<p>Really proud father :-D, Linux Kernel hacker B-), academic scholar 8-), challenged soccer player (GK) :-| ... and horrible singer :-X (since the statistical sample space for this conclusion is only based on my wife's opinion, more research is yet necessary to reach further conclusions)</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -67,7 +67,7 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 
 <h1>Upstream contributions</h1>
 <ul>
-	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes">Linux Kernel</a></li>
+	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes">Linux Kernel contributions</a></li>
 </ul
 	
 <h1>Research papers and publications</h1>
@@ -79,5 +79,10 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 
 <h1>Patents</h1>
 <ul>
-	<li>Email: desnesn gmail com</li>
+	<li><a href="https://patents.google.com/patent/US9781565B1/">US US9781565B1</a> - Mobile device inference and location prediction of a moving object of interest</li>
+	<li><a href="https://patents.google.com/patent/US20190171460A1/">US US20190171460A1</a> - Instructions scheduler optimization</li>
+	<li><a href="https://patents.google.com/patent/US9977898B1">US US9977898B1</a> - Identification and recovery of vulnerable containers</li>
+	<li><a href="https://patents.google.com/patent/US20190207715A1">US US20190207715A1</a> - Redundancy in converged networks</li>
+	<li><a href="https://patents.google.com/patent/US20180020077A1/en">US US20180020077A1</a> - Live migration of containers based on geo-location</li>
+	<li><a href="https://patents.google.com/patent/US20170371638">US US20170371638A1</a> - Redundant software stack</li>
 </ul>
