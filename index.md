@@ -68,6 +68,7 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 <h1>Upstream contributions</h1>
 <ul>
 	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes">Linux Kernel contributions</a></li>
+	<li><a href="https://github.com/desnesn/beaker.dn">Beaker dn fork branch</a></li>
 </ul
 	
 <h1>Research papers and publications</h1>
