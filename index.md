@@ -25,7 +25,7 @@ A little blog about desnes' professional, academic and curious adventures.
 <ul>
 <!--<li><a href="{{ site.baseurl }}/contributions">Open Source Contributions</a></li>-->
 	<li>Email: desnesn gmail com</li>
-	<li><a href="https://www.linkedin.com/in/desnesn/">LinkedIn</a></li>
+	<li><a href="https://www.linkedin.com/in/desnesn/" target="_blank">LinkedIn</a></li>
 	<li><a href="https://github.com/desnesn/">GitHub</a></li>
 	<li><a href="https://gitlab.com/desnesn">Gitlab</a></li>
 	<li><a href="https://copr.fedorainfracloud.org/coprs/desnesn/beaker.dn/">Fedora COPR</a></li>
@@ -57,13 +57,13 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
 </div>
 
+<br>
 <h1>Upstream contributions</h1>
 <ul>
 	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes">Linux Kernel contributions</a></li>
 	<li><a href="https://github.com/desnesn/beaker.dn">Beaker dn fork branch</a></li>
 </ul>
 	
-<br>
 <h1>Some videos</h1>
 <p>2014 - Prototype of mobile Android application applied to an Industrial Plant with OPC comunication (Portuguese)</p>
 <iframe width="420" height="315"
@@ -75,6 +75,7 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
         src="https://www.youtube.com/embed/WcnRI7vdFD8">
 </iframe>
 
+<br>
 <h1>Research papers and publications</h1>
 <ul>
 	<li><a href="https://ieeexplore.ieee.org/document/7307125">IEEE Remote sensing letters</a> - Parallel Scalability of a Fine-grain Prestack Reverse Time Migration (RTM) Algorithm</li>
