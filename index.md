@@ -2,12 +2,6 @@
 title: desnesn
 ---
 
-# about
-<div style="width:100%">
-A little blog about desnes's adventures on academic and professional life
-</div>
-
-# RHEL -> CentOS Dowstream contributions
 <style>
 .scrollBox {
         height:150px;
@@ -17,6 +11,14 @@ A little blog about desnes's adventures on academic and professional life
 	display: flex;
 }
 </style>
+
+# about
+<div style="width:100%">
+A little blog about desnes's adventures on academic and professional life
+</div>
+
+# RHEL -> CentOS Dowstream contributions
+<h1>RHEL -> CentOS Dowstream contributions</h1>
 
 <h2>RHEL7 -> CentOS7</h2>
 <p>143 contributions</p>
