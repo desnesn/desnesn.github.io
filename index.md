@@ -15,13 +15,13 @@ title: desnesn
 <h1>About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-<p>Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X (wife's personal opinion)</p>
+<p>Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X (wife's personal opinion - not valid sample space)</p>
 
 <h1>Usefull links</h1>
 <ul>
 <!--<li><a href="{{ site.baseurl }}/contributions">Open Source Contributions</a></li>-->
 	<li>Email: desnesn gmail com</li>
-	<li><a href=https://www.linkedin.com/in/desnesn/">LinkedIn</a></li>
+	<li><a href="https://www.linkedin.com/in/desnesn/">LinkedIn</a></li>
 	<li><a href="https://github.com/desnesn/">GitHub</a></li>
 	<li><a href="https://gitlab.com/desnesn">Gitlab</a></li>
 	<li><a href="https://copr.fedorainfracloud.org/coprs/desnesn/beaker.dn/">Fedora COPR</a></li>
