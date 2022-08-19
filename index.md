@@ -53,6 +53,12 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 <object style="flex: 1;" data="centos/commits-from-Desnes-centos9.txt"></object>
 </div>
 
+<h1>Upstream contributions</h1>
+<ul>
+	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes">Linux Kernel contributions</a></li>
+	<li><a href="https://github.com/desnesn/beaker.dn">Beaker dn fork branch</a></li>
+</ul>
+	
 <br>
 <h1>Some videos</h1>
 <p>2014 - Prototype of mobile Android application applied to an Industrial Plant with OPC comunication (Portuguese)</p>
@@ -60,22 +66,16 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
         src="https://www.youtube.com/embed/JSg42LkjQy0">
 </iframe>
 
-<p>2018 - Cat motion sensored toy</p>
+<p>2018 - Personal project - Cat motion sensored toy</p>
 <iframe width="420" height="315"
         src="https://www.youtube.com/embed/WcnRI7vdFD8">
 </iframe>
 
-<h1>Upstream contributions</h1>
-<ul>
-	<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes">Linux Kernel contributions</a></li>
-	<li><a href="https://github.com/desnesn/beaker.dn">Beaker dn fork branch</a></li>
-</ul
-	
 <h1>Research papers and publications</h1>
 <ul>
-	<li><a href="https://ieeexplore.ieee.org/document/7307125">IEEE Remote sensing letters - Parallel Scalability of a Fine-grain Prestack Reverse Time Migration (RTM) Algorithm</a></li>
-	<li><a href="https://www.redbooks.ibm.com/Redbooks.nsf/RedpieceAbstracts/sg248371.html?Open">POWER8 HPC S822LC (8335-GTB) Redbook</a></li>
-	<li><a href="https://repositorio.ufrn.br/jspui/bitstream/123456789/15459/1/DesnesANR_DISSERT.pdf">Master thesis (Portuguese)</a></li>
+	<li><a href="https://ieeexplore.ieee.org/document/7307125">IEEE Remote sensing letters</a> - Parallel Scalability of a Fine-grain Prestack Reverse Time Migration (RTM) Algorithm</li>
+	<li><a href="https://www.redbooks.ibm.com/Redbooks.nsf/RedpieceAbstracts/sg248371.html?Open">IBM Redbook</a> - POWER8 HPC S822LC (8335-GTB) Redbook</li>
+	<li><a href="https://repositorio.ufrn.br/jspui/bitstream/123456789/15459/1/DesnesANR_DISSERT.pdf">Master thesis (Portuguese)</a> - Escalabilidade paralela de um algoritmo de migração reversa no tempo (RTM) pré-empilhamento</li>
 </ul>
 
 <h1>Patents</h1>
