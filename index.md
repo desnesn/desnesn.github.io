@@ -12,12 +12,11 @@ title: desnesn
 }
 </style>
 
-# about
+<h1>About</h1>
 <div style="width:100%">
 A little blog about desnes's adventures on academic and professional life
 </div>
 
-# RHEL -> CentOS Dowstream contributions
 <h1>RHEL -> CentOS Dowstream contributions</h1>
 
 <h2>RHEL7 -> CentOS7</h2>
