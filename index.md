@@ -15,7 +15,7 @@ title: desnesn
 <h1>About</h1>
 A little blog about desnes' professional, academic and curious adventures.
 
-Proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X.
+Really proud father :-D, Linux hacker B-), academic scholar 8-), challenged soccer player (GK) :-| and horrible singer :-X (wife's personal opinion).
 
 <h1>Usefull links</h1>
 <ul>
