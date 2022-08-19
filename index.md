@@ -15,7 +15,7 @@ title: desnesn
 <h1 style="width:100%">About</h1>
 A little blog about desnes' professional, academic and nerd adventures.
 
-<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father (^_^)<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Excellent Brazilian Barbecue Cheff ;-]<br>Horrible singer :-X<br>&nbsp;&nbsp;&nbsp; --> opinion_sample_space[my_wife]</p>
+<p style="width:100%;text-align: justify;text-justify: inter-word;">Really proud father (^_^)<br>Linux Kernel hacker B-)<br>Academic scholar and PHD student 8-)<br>Height challenged soccer player (GK) :-|<br>Excellent Brazilian Barbecue Chef ;-]<br>Horrible singer :-X<br>&nbsp;&nbsp;&nbsp; --> opinion_sample_space[my_wife]</p>
 
 <h1>Usefull links</h1>
 <ul>
@@ -54,7 +54,7 @@ These were caculated with: <a href="https://github.com/desnesn/desnesn.github.io
 </div>
 
 <h2>CentOStream9 -> RHEL9</h2>
-On the other hand, with the introduction to CentOStream, Red Hat's distro development became fully open source, hence contributions can now be easily found on Red Hat's gitlab tree:
+On the other hand, with the introduction to CentOStream, Red Hat's distro development became fully open sourced, hence contributions can now be easily found on Red Hat's gitlab tree:
 
 <br>
 <p><b>74 contributions - <a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/commits/main?search=drosario" target="_blank">CentOStream9 Gitlab tree</a></b></p>
@@ -66,12 +66,12 @@ On the other hand, with the introduction to CentOStream, Red Hat's distro develo
 </ul>
 	
 <h1>Some videos</h1>
-<p>2014 - Prototype of mobile Android application applied to an Industrial Plant with OPC comunication (Portuguese)</p>
+<p>2014 - Prototype of a mobile Android application applied to Industrial Plant OPC comunication and supervision (Portuguese) - Final project for my Industrial Automation Specialization degree</p>
 <iframe width="100%" height="315"
         src="https://www.youtube.com/embed/JSg42LkjQy0">
 </iframe>
 
-<p>2018 - Personal project - Cat motion sensored toy</p>
+<p>2018 - Personal project for fun - Cat motion sensored Arduino toy</p>
 <iframe width="100%" height="315"
         src="https://www.youtube.com/embed/WcnRI7vdFD8">
 </iframe>
