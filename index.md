@@ -82,6 +82,7 @@ On the other hand, with the introduction to CentOStream, Red Hat's distro develo
 	<li><a href="https://ieeexplore.ieee.org/document/7307125" target="_blank">IEEE Remote sensing letters</a> - Parallel Scalability of a Fine-grain Prestack Reverse Time Migration (RTM) Algorithm</li>
 	<li><a href="https://www.redbooks.ibm.com/Redbooks.nsf/RedpieceAbstracts/sg248371.html?Open" target="_blank">IBM Redbook</a> - POWER8 HPC S822LC (8335-GTB) Redbook</li>
 	<li><a href="https://repositorio.ufrn.br/jspui/bitstream/123456789/15459/1/DesnesANR_DISSERT.pdf" target="_blank">Master thesis (Portuguese)</a> - Escalabilidade paralela de um algoritmo de migração reversa no tempo (RTM) pré-empilhamento</li>
+	<li><a href="https://github.com/desnesn/msc" target="_blank">2012 Master thesis C/OpenMP RTM migration code</a></li>
 </ul>
 
 <h1>Patents</h1>
