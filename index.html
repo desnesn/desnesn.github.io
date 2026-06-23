@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desnes Nunes | Linux Kernel Developer</title>
+
+<style>
+:root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface-hover: #273549;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --green: #22c55e;
+    --blue: #38bdf8;
+    --border: #334155;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, Segoe UI, Roboto, sans-serif;
+    line-height: 1.7;
+}
+
+.container {
+    width: min(1100px, 90%);
+    margin: auto;
+}
+
+header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    max-width: 800px;
+}
+
+.hero .tag {
+    color: var(--green);
+    font-family: monospace;
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.hero h2 {
+    color: var(--blue);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero p {
+    color: var(--muted);
+    font-size: 1.1rem;
+}
+
+.btn-group {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-right: 1rem;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: var(--green);
+    color: #08110c;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.btn-secondary:hover {
+    background: rgba(56,189,248,0.1);
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--green);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 24px;
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: var(--surface-hover);
+    transform: translateY(-4px);
+}
+
+.card h3 {
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 10px 16px;
+    border-radius: 999px;
+}
+
+.project {
+    margin-bottom: 24px;
+    padding: 24px;
+    background: var(--surface);
+    border-left: 4px solid var(--green);
+    border-radius: 8px;
+}
+
+.project h3 {
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+}
+
+a {
+    color: var(--blue);
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: rgba(15,23,42,0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    z-index: 100;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.logo {
+    color: var(--green);
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    margin-left: 24px;
+}
+
+.nav-links a:hover {
+    color: var(--green);
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="container">
+		<div class="logo">$ echo "Have you tried to turn it off and on again?" </div>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#upstream">Upstream</a>
+            <a href="#downstream">Downstream</a>
+            <a href="#publications">Publications</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div class="container">
+        <div class="hero">
+            <p class="tag">Linux Kernel Developer</p>
+
+            <h1>Desnes Nunes</h1>
+
+            <h2>Enterprise Linux Kernel Engineer & PHD candidate</h2>
+
+            <p>
+                Specialized in kernel development and platform enablement
+		for Linux enterprise distributions. PHD focuses on the
+		usage of NLP models in Linux Enterprise
+		applications.
+            </p>
+
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <h2 class="section-title">About</h2>
+
+        <p>
+            Linux systems engineer focused on kernel development,
+	    USB/TBT, device drivers, backporting, debugging, subsystem
+	    debugging, performance optimization, and
+            hardware enablement. Experienced in both upstream
+            open-source collaboration and in the development of
+	    downstream enterprise Linux distributions.
+        </p>
+
+	<br>
+
+	<p>
+	    Additionally, I am also a really proud father of 2,
+	    a height challenged goalkeeper and a brazilian barbecue
+	    chef in training. I really enjoy gatherings, thus I am not
+	    only a promoter of office corporate technical events, but
+	    also of soccer matches of "The Injured" soccer team, as well
+	    as playdates and also worthy offerings to the barbecues gods.
+	</p>
+    </div>
+</section>
+
+<section id="upstream">
+    <div class="container">
+        <h2 class="section-title">Upstream Contributions</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Linux Kernel</h3>
+
+                <ul>
+		    <li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes" target="_blank">Linux Patches</a></li>
+                    <li>Bug fixes and subsystem improvements</li>
+		    <!--<li>Code reviews and maintainer discussions</li>-->
+                    <li>Regression analysis</li>
+		    <li>Memory leaks</li>
+		    <li>Kdump and iommu</li>
+		    <li>DMA debugging</li>
+                    <li>Driver reliability enhancements</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Open Source & Packages</h3>
+
+                <ul>
+		    <li><a href="https://gitlab.com/desnesn/usbmon" target="_blank">usbmon</a></li>
+		    <ul><li><a href="https://packages.fedoraproject.org/pkgs/usbmon/usbmon/" target="_blank">usbmon package</a></li></ul>
+		    <li><a href="https://github.com/desnesn/beaker.dn" target="_blank">beaker dn fork</a></li>
+		    <ul><li><a href="https://copr.fedorainfracloud.org/coprs/desnesn/beaker.dn" target="_blank">beaker dn package</a></li></ul>
+                    <li>Patch submission and review process</li>
+                    <li>Community collaboration</li>
+                    <li>Long-term maintainability</li>
+		    <!--<li>Kernel ecosystem support</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="downstream">
+    <div class="container">
+        <h2 class="section-title">Downstream Contributions</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Enterprise Linux</h3>
+
+                <ul>
+		    <li><a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/commits/main?author=Desnes%20Nunes" target="_blank">CentOS Stream 9 (CS9)</a></li>
+		    <li><a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-10/-/commits/main?author=Desnes%20Nunes" target="_blank">CentOS Stream 10 (CS10)</a></li>
+                    <li>Kernel backports</li>
+                    <li>USB/TBT rebases</li>
+                    <li>Hardware enablement</li>
+                    <li>Stability and maintenance</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Customer Support</h3>
+
+                <ul>
+                    <li>Root cause analysis</li>
+		    <li>Production issue investigation</li>
+                    <li>Vendor collaboration</li>
+		    <li>CVE fixes</li>
+                    <li>Large-scale deployments</li>
+                    <li>Critical bug resolution</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="publications">
+    <div class="container">
+        <h2 class="section-title">Research papers and publications</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Publications</h3>
+
+                <ul>
+    <li>2027 - <a href="#publications">PHD dissertation</a>: Loading</li>
+    <li>2027 - <a href="#publications">PHD dissertation code</a>: Loading</li>
+    <li>2023 - <a href="https://arxiv.org/abs/2303.17003" target="_blank">ARXIV</a>: Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams</li>
+    <li>2017 - <a href="https://www.redbooks.ibm.com/Redbooks.nsf/RedpieceAbstracts/sg248371.html?Open" target="_blank">IBM Redbook</a> - POWER8 HPC S822LC (8335-GTB) Redbook</li>
+    <li>2015 - <a href="https://ieeexplore.ieee.org/document/7307125" target="_blank">IEEE Remote sensing letters</a> - Parallel Scalability of a Fine-grain Prestack Reverse Time Migration (RTM) Algorithm</li>
+    <li>2015 - <a href="https://github.com/desnesn/msc" target="_blank">C/OpenMP RTM migration code</a> Master thesis code</li>
+    <li>2012 - <a href="https://repositorio.ufrn.br/jspui/bitstream/123456789/15459/1/DesnesANR_DISSERT.pdf" target="_blank">Master thesis (POR)</a> - Escalabilidade paralela de um algoritmo de migração reversa no tempo (RTM) pré-empilhamento</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Patents</h3>
+
+                <ul>
+    <li><a href="https://patents.google.com/patent/US9781565B1/" target="_blank">US US9781565B1</a> - Mobile device inference and location prediction of a moving object of interest</li>
+    <li><a href="https://patents.google.com/patent/US20190171460A1/" target="_blank">US US20190171460A1</a> - Instructions scheduler optimization</li>
+    <li><a href="https://patents.google.com/patent/US9977898B1" target="_blank">US US9977898B1</a> - Identification and recovery of vulnerable containers</li>
+    <li><a href="https://patents.google.com/patent/US20190207715A1" target="_blank">US US20190207715A1</a> - Redundancy in converged networks</li>
+    <li><a href="https://patents.google.com/patent/US20180020077A1/en" target="_blank">US US20180020077A1</a> - Live migration of containers based on geo-location</li>
+    <li><a href="https://patents.google.com/patent/US20170371638" target="_blank">US US20170371638A1</a> - Redundant software stack</li>
+    <li><a href="https://patents.google.com/patent/US9781565B1/" target="_blank">US US9781565B1</a> - Mobile device inference and location prediction of a moving object of interest</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+<section id="projects">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="project">
+            <h3>USB4 / Thunderbolt Debugging</h3>
+            <p>
+                Analysis and debugging of USB4 and Thunderbolt
+                subsystems in enterprise Linux environments.
+            </p>
+	    
+        </div>
+
+        <div class="project">
+            <h3>IOMMU and DMA Translation</h3>
+            <p>
+                Investigation of translation-related issues in
+                crash kernels and virtualization environments.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>PCIe Platform Enablement</h3>
+            <p>
+                Driver fixes and platform support for modern
+                enterprise hardware.
+            </p>
+        </div>
+    </div>
+</section>
+-->
+
+<section id="projects">
+    <div class="container">
+        <h2 class="section-title">Projects & Presentations</h2>
+
+        <div class="project">
+            <h3>2026 - GNU/Linux kernel development and debugging 101 (POR)</h3>
+            <p>
+	    Presentation about Linux enterprise kernel development - 101 style - 2h30 hours (POR)
+            </p>
+	    
+	    <iframe width="100%" height="315"
+            	src="https://www.youtube.com/live/ZOxncaSxFMI">
+	    </iframe>
+
+	    <br>
+
+	    <p>
+	    Also presented a first version of this talk at the FOSforums 2024 conference: <a href="https://www.fosforums.org/previous-years/2024" target="_blank">FOSforums 2024</a>
+	    </p>
+
+        </div>
+
+        <div class="project">
+            <h3>2018 - Cat motion sensored Arduino toy</h3>
+            <p>
+	    Personal project for my "Castomer" (RIP &#9825)
+	    </p>
+	   <iframe width="100%" height="315"
+        	src="https://www.youtube.com/embed/WcnRI7vdFD8">
+	   </iframe>
+        </div>
+
+	<div class="project">
+            <h3>2014 - Android suppervision Industrial application (POR)</h3>
+            <p>
+	    Prototype of a mobile Android application applied to Industrial Plant OPC comunication and supervision (Portuguese) - Final project for my Industrial Automation Specialization degree
+            </p>
+	    
+	    <iframe width="100%" height="315"
+            	src="https://www.youtube.com/embed/JSg42LkjQy0">
+	    </iframe>
+
+        </div>
+<!--
+        <div class="project">
+            <h3>PCIe Platform Enablement</h3>
+            <p>
+                Driver fixes and platform support for modern
+                enterprise hardware.
+            </p>
+        </div>
+-->
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Linux Kernel</div>
+            <div class="skill">C</div>
+            <div class="skill">USB4</div>
+            <div class="skill">Thunderbolt</div>
+            <div class="skill">PCIe</div>
+            <div class="skill">IOMMU</div>
+            <div class="skill">KVM</div>
+            <div class="skill">Git</div>
+            <div class="skill">Device Drivers</div>
+            <div class="skill">Kernel Debugging</div>
+        </div>
+    </div>
+</section>
+
+<section id="soft_skills">
+    <div class="container">
+        <h2 class="section-title">Soft Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Amiable</div>
+            <div class="skill">Ambitious</div>
+            <div class="skill">Empathetic</div>
+	    <div class="skill">Public Speaker</div>
+            <div class="skill">Tenacious</div>
+            <div class="skill">Motivator</div>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <div class="container">
+	    <p> <a href="https://gitlab.com/desnesn" target="_blank">Gitlab</a> | <a href="https://www.linkedin.com/in/desnesn/" target="_blank">LinkedIn</a> | <a href="https://github.com/desnesn/" target="_blank">Github</a> | <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4454324Z2&tokenCaptchar=03ANYolquA_fBtbZCyBhMOwjmzNEox-w4dglC8m6oYI5Il-EGNrRBAF7hFLKJAu2Hujo6VCXcnzoxuIosLzDmkjM0zDw6-lrgyzmQqFnoY4Mpez49ZMMz43USRhEvy5HYAxm6Jk8gIHgtUIxUFNvNqm7z7OP7qM9Bv5D522YdP2u88P8rqC1_UAxV2FCHr0bF78IDIShVN33DwTZzYLOn_Fcl24DbS8pBmaOArZYiWUIIo_QrO0inWFJlyGHSW-U3pvWMCSUHcgFHG8pLdbLOrGOTMsgvyQHvWv4foXL2UQxRhLW3s_AxYKQIbZ4Leg_Zbcl3slij0VvrK6cgx4kbNXkZoKp5gvgxS5WmWsLkg-i0qt1sA-Fsn6GqusMBQ2XDpliNA1MFgjcd9Futj9nBj83LxvQWITRCeVkxSp6BpGELiYocXAqVsEmo4jPYYACSgdc8upKGH6FSjGmcV6tuePEKAppkea_2jXgb2N-iapPrQiZalmb1MdY70dooVaFJuk9cKCuIGUpqdjwa5j2LBr6yYKR1WgYzDE4aF3Z4OOxKeoQfVWZfsRu2pk9mcb1otk5TgP9GDeMk4qshoYxTs71OZjvl-QjX3bg" target="_blank">Curriculum Lattes</a> </p>
+        <p>© 2026 Desnes Nunes</p>
+    </div>
+</footer>
+
+</body>
+</html>
