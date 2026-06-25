@@ -305,10 +305,9 @@ nav .container {
                 <h2>Enterprise Linux Engineer & PHD candidate</h2>
 
                 <p>
-		    Specialized in kernel development and platform enablement
-		    for Linux enterprise distributions. PHD focuses on the
-		    usage of NLP models in Linux Enterprise
-		    applications.
+		    Specialized in Linux Kernel development and platform enablement
+		    for Linux enterprise distributions.<br>PHD thesis focuses on the
+		    usage of NLP models for Linux Enterprise applications.
                 </p>
 
                 <div class="btn-group">
@@ -337,61 +336,27 @@ nav .container {
 
         <p>
             Linux systems engineer focused on kernel development,
-	    USB/TBT, device drivers, backporting, debugging, subsystem
-	    debugging, performance optimization, and
-            hardware enablement. Experienced in both upstream
-            open-source collaboration and in the development of
-	    downstream enterprise Linux distributions.
+	    USB/TBT and other device drivers (memstick, extcon).
+	    Daily activies usually involve backporting, subsystem
+	    debugging, crash, perf, stack trace / vmcore analysis,
+	    performance optimization, and hardware enablement.
+	    Experienced in both upstream open-source collaboration
+	    and mostly in the development of downstream enterprise
+	    Linux distributions.
         </p>
 
 	<br>
 
 	<p>
-	    Additionally, I am also a really proud father of 2,
+	    On top of that, I am also a really proud father of 2,
 	    a height challenged goalkeeper and a brazilian barbecue
-	    chef in training. I really enjoy gatherings, thus I am not
-	    only a promoter of office corporate technical events, but
-	    also of soccer matches of "The Injured" soccer team, as well
-	    as playdates and also worthy offerings to the barbecues gods.
+	    chef in training. I really enjoy all sort of gatherings,
+	    thus I am not only a promoter of office corporate technical
+	    events, but also of soccer matches of "The Injured" soccer
+	    team, as well as fun and interesting playdates, while not
+	    forgetting to promote worthy meat and vegetable offerings
+	    to the barbecues gods.
 	</p>
-    </div>
-</section>
-
-<section id="upstream">
-    <div class="container">
-        <h2 class="section-title">Upstream Contributions</h2>
-
-        <div class="card-grid">
-            <div class="card">
-                <h3>Linux Kernel</h3>
-
-                <ul>
-		    <li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes" target="_blank">Linux Patches</a></li>
-                    <li>Bug fixes and subsystem improvements</li>
-		    <!--<li>Code reviews and maintainer discussions</li>-->
-                    <li>Regression analysis</li>
-		    <li>Memory leaks</li>
-		    <li>Kdump and iommu</li>
-		    <li>DMA debugging</li>
-                    <li>Driver reliability enhancements</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <h3>Open Source & Packages</h3>
-
-                <ul>
-		    <li><a href="https://gitlab.com/desnesn/usbmon" target="_blank">usbmon</a></li>
-		    <ul><li><a href="https://packages.fedoraproject.org/pkgs/usbmon/usbmon/" target="_blank">usbmon package</a></li></ul>
-		    <li><a href="https://github.com/desnesn/beaker.dn" target="_blank">beaker dn fork</a></li>
-		    <ul><li><a href="https://copr.fedorainfracloud.org/coprs/desnesn/beaker.dn" target="_blank">beaker dn package</a></li></ul>
-                    <li>Patch submission and review process</li>
-                    <li>Community collaboration</li>
-                    <li>Long-term maintainability</li>
-		    <!--<li>Kernel ecosystem support</li>-->
-                </ul>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -406,10 +371,10 @@ nav .container {
                 <ul>
 		    <li><a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/commits/main?author=Desnes%20Nunes" target="_blank">CentOS Stream 9 (CS9)</a></li>
 		    <li><a href="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-10/-/commits/main?author=Desnes%20Nunes" target="_blank">CentOS Stream 10 (CS10)</a></li>
-                    <li>Kernel backports</li>
+                    <li>Kernel patch backports</li>
                     <li>USB/TBT rebases</li>
-                    <li>Hardware enablement</li>
-                    <li>Stability and maintenance</li>
+                    <li>Hardware and config enablement</li>
+                    <li>Stability, Security and maintenance</li>
                 </ul>
             </div>
 
@@ -429,6 +394,43 @@ nav .container {
     </div>
 </section>
 
+<section id="upstream">
+    <div class="container">
+        <h2 class="section-title">Upstream Contributions</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Linux Kernel</h3>
+
+                <ul>
+		    <li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Desnes" target="_blank">Linux Patches</a></li>
+                    <li>Bug fixes, new features and code improvements</li>
+		    <!--<li>Code reviews and maintainer discussions</li>-->
+                    <li>Regression analysis</li>
+		    <li>Memory leaks</li>
+		    <li>Kdump and LTP</li>
+		    <li>USB, TBT, DMA and IOMMU debugging</li>
+                    <li>Driver config enablement and enhancements</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Open Source & Packages</h3>
+
+                <ul>
+		    <li><a href="https://gitlab.com/desnesn/usbmon" target="_blank">usbmon</a></li>
+		    <ul><li><a href="https://packages.fedoraproject.org/pkgs/usbmon/usbmon/" target="_blank">usbmon package</a></li></ul>
+		    <li><a href="https://github.com/desnesn/beaker.dn" target="_blank">beaker dn fork</a></li>
+		    <ul><li><a href="https://copr.fedorainfracloud.org/coprs/desnesn/beaker.dn" target="_blank">beaker dn package</a></li></ul>
+                    <li>Package maintenance, rpm builds and COPR repos</li>
+                    <li>Community collaboration</li>
+                    <li>Long-term maintainability</li>
+		    <!--<li>Kernel ecosystem support</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section id="publications">
     <div class="container">
@@ -439,13 +441,13 @@ nav .container {
                 <h3>Publications</h3>
 
                 <ul>
-    <li>2027 - <a href="#publications">PHD dissertation</a>: Loading</li>
-    <li>2027 - <a href="#publications">PHD dissertation code</a>: Loading</li>
-    <li>2023 - <a href="https://arxiv.org/abs/2303.17003" target="_blank">ARXIV</a>: Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams</li>
+    <li>2027 - <a href="#publications">PHD dissertation</a>: LOADING <span style="font-size: 20px; color: #FFCC00;">&#x26A0;</span></li>
+    <!--    <li>2027 - <a href="#publications">PHD dissertation code</a>: Loading</li>-->
+    <li>2023 - <a href="https://arxiv.org/abs/2303.17003" target="_blank">ARXIV Research Paper</a>: Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams</li>
     <li>2017 - <a href="https://www.redbooks.ibm.com/Redbooks.nsf/RedpieceAbstracts/sg248371.html?Open" target="_blank">IBM Redbook</a> - POWER8 HPC S822LC (8335-GTB) Redbook</li>
     <li>2015 - <a href="https://ieeexplore.ieee.org/document/7307125" target="_blank">IEEE Remote sensing letters</a> - Parallel Scalability of a Fine-grain Prestack Reverse Time Migration (RTM) Algorithm</li>
     <li>2015 - <a href="https://github.com/desnesn/msc" target="_blank">C/OpenMP RTM migration code</a> Master thesis code</li>
-    <li>2012 - <a href="https://repositorio.ufrn.br/jspui/bitstream/123456789/15459/1/DesnesANR_DISSERT.pdf" target="_blank">Master thesis (POR)</a> - Escalabilidade paralela de um algoritmo de migração reversa no tempo (RTM) pré-empilhamento</li>
+    <li>2012 - <a href="https://repositorio.ufrn.br/jspui/bitstream/123456789/15459/1/DesnesANR_DISSERT.pdf" target="_blank">Master thesis (PORTUGUESE)</a> - Escalabilidade paralela de um algoritmo de migração reversa no tempo (RTM) pré-empilhamento</li>
                 </ul>
             </div>
 
@@ -503,9 +505,9 @@ nav .container {
         <h2 class="section-title">Projects & Presentations</h2>
 
         <div class="project">
-            <h3>2026 - GNU/Linux kernel development and debugging 101 (POR)</h3>
+            <h3>2026 - GNU/Linux kernel development and debugging 101 (PORTUGUESE)</h3>
             <p>
-	    Presentation about Linux enterprise kernel development - 101 style - 2h30 hours (POR)
+	    Presentation about Linux enterprise kernel development - 101 style - 2h30 hours (PORTUGUESE)
             </p>
 	    
 	    <!--
@@ -538,7 +540,7 @@ nav .container {
         </div>
 
 	<div class="project">
-            <h3>2014 - Android suppervision Industrial application (POR)</h3>
+            <h3>2014 - Android suppervision Industrial application (PORTUGUESE)</h3>
             <p>
 	    Prototype of a mobile Android application applied to Industrial Plant OPC comunication and supervision (Portuguese) - Final project for my Industrial Automation Specialization degree
             </p>
@@ -570,13 +572,13 @@ nav .container {
         <div class="skills">
             <div class="skill">Linux Kernel</div>
             <div class="skill">C</div>
-            <div class="skill">USB4</div>
+            <div class="skill">USB</div>
             <div class="skill">Thunderbolt</div>
-            <div class="skill">PCIe</div>
+            <div class="skill">Memstick</div>
             <div class="skill">IOMMU</div>
             <div class="skill">KVM</div>
             <div class="skill">Git</div>
-            <div class="skill">Device Drivers</div>
+	    <!-- <div class="skill">Device Drivers</div>-->
             <div class="skill">Kernel Debugging</div>
         </div>
     </div>
@@ -590,6 +592,7 @@ nav .container {
             <div class="skill">Amiable</div>
             <div class="skill">Ambitious</div>
             <div class="skill">Empathetic</div>
+            <div class="skill">Focused</div>
 	    <div class="skill">Public Speaker</div>
             <div class="skill">Tenacious</div>
             <div class="skill">Motivator</div>
