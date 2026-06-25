@@ -46,7 +46,47 @@ header {
 }
 
 .hero {
-    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+/*
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 4px solid var(--green);
+
+    box-shadow:
+        0 0 0 8px rgba(34,197,94,0.08),
+        0 0 40px rgba(34,197,94,0.25);
+
+    background:  rgba(255,255,255,1.00);
+}
+*/
+
+.hero-image img {
+    border-radius: 50%;
+    border: 4px solid var(--green);
+
+    box-shadow:
+        0 0 15px rgba(34,197,94,0.4),
+        0 0 40px rgba(56,189,248,0.2);
+
+    background:  rgba(255,255,255,1.00);
 }
 
 .hero .tag {
@@ -71,6 +111,7 @@ header {
     color: var(--muted);
     font-size: 1.1rem;
 }
+
 
 .btn-group {
     margin-top: 2rem;
@@ -216,14 +257,22 @@ nav .container {
 }
 
 @media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 200px;
+        height: 200px;
+    }
+
     .hero h1 {
         font-size: 2.8rem;
     }
-
-    .nav-links {
-        display: none;
-    }
 }
+
 </style>
 </head>
 
@@ -247,28 +296,37 @@ nav .container {
 <header>
     <div class="container">
         <div class="hero">
-            <p class="tag">Linux Kernel Developer</p>
 
-            <h1>Desnes Nunes</h1>
+            <div class="hero-content">
+                <p class="tag">Linux Kernel Developer</p>
 
-            <h2>Enterprise Linux Kernel Engineer & PHD candidate</h2>
+                <h1>Desnes Nunes</h1>
 
-            <p>
-                Specialized in kernel development and platform enablement
-		for Linux enterprise distributions. PHD focuses on the
-		usage of NLP models in Linux Enterprise
-		applications.
-            </p>
+                <h2>Enterprise Linux Engineer & PHD candidate</h2>
 
-            <div class="btn-group">
-                <a href="#projects" class="btn btn-primary">
-                    View Projects
-                </a>
+                <p>
+		    Specialized in kernel development and platform enablement
+		    for Linux enterprise distributions. PHD focuses on the
+		    usage of NLP models in Linux Enterprise
+		    applications.
+                </p>
 
-                <a href="#contact" class="btn btn-secondary">
-                    Contact
-                </a>
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact
+                    </a>
+                </div>
             </div>
+
+            <div class="hero-image">
+                <img src="images/tux.png"
+                     alt="Desnes Nunes">
+            </div>
+
         </div>
     </div>
 </header>
